@@ -14,5 +14,4 @@ cin>>n;
  }
  while(q%10!=0);
  cout<<a;
-
 }
