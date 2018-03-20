@@ -30,13 +30,11 @@ int main()
         if(count==abs(l1-l2))
         {
             cost=+count*3;
-        }
-    }
+        }}
     else{
         cost=((count/2)*3)+((count/2)*4);
         cost1+=(count/2*5);
     }
     min=(cost<cost1)?cost:cost1;
    cout<<min;
-   return 0;
-}
+   return 0;}
